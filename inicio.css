@@ -1,5 +1,5 @@
 /* Google Fonts */
-@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
 
 /* Global */
 html{
@@ -7,11 +7,12 @@ html{
   overflow: hidden;
 }
 body{
-  height: calc(100vh - 8em);
-  padding: 4em;
-  font-family: 'Anonymous Pro', monospace;  
-  background-color: rgb(255, 238, 0);  
-}
+    height: calc(100vh - 8em);
+    padding: 4em;
+    font-family: 'Fugaz One', cursive; /* Cambiamos 'Anonymous Pro' por 'Fugaz One' */
+    background-color: rgb(255, 238, 0);  
+  }
+  
 .line-1{
     position: relative;
     top: 50%;  
