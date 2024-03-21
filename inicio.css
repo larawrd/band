@@ -2,30 +2,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
 
 /* Global */
-html{
-  min-height: 100%;
+html, body {
+  margin: 0; /* Eliminar márgenes predeterminados */
+  padding: 0; /* Eliminar relleno predeterminado */
+  height: 100%;
+  font-family: 'Fugaz One', cursive;
+  overflow-y: auto; /* Agrega desplazamiento vertical */
+}
+
+.parte-uno {
+  background-image: url('fondo.jpg'); /* Imagen de fondo */
+  background-size: cover; /* Ajustar la imagen al tamaño del contenedor */
+  padding: 4em;
+  text-align: center;
+}
+.line-1 {
+  position: relative;
+  width: 24em;
+  margin: 0 auto;
+  border-right: 2px solid rgba(0, 0, 0, 0.75);
+  font-size: 180%;
+  text-align: center;
+  white-space: nowrap;
   overflow: hidden;
+  transform: translateY(-50%);
 }
-body{
-    height: calc(100vh - 8em);
-    padding: 4em;
-    font-family: 'Fugaz One', cursive; /* Cambiamos 'Anonymous Pro' por 'Fugaz One' */
-    background-color: rgb(255, 238, 0);  
-  }
-
-.line-1{
-    position: relative;
-    top: 50%;  
-    width: 24em;
-    margin: 0 auto;
-    border-right: 2px solid rgba(0, 0, 0, 0.75);
-    font-size: 180%;
-    text-align: center;
-    white-space: nowrap;
-    overflow: hidden;
-    transform: translateY(-50%);    
-}
-
 /* Animation */
 .anim-typewriter {
     animation: typewriter 3s steps(22) 0.5s 1 normal both, /* Ajusta la duración según tus necesidades */
@@ -46,10 +47,32 @@ body{
 }
 
 h1.line-1.anim-typewriter {
+  margin-top: 20%;
     font-size: 5em; /* Ajusta el tamaño de la fuente según tus necesidades */
 }
 
 .fotos{
-    margin-top: 20px;
+    margin-top: -10%;
     margin-left: -100px;
+}
+
+.h1-information {
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  margin-top: 5%;
+}
+.information {
+  display: flex;
+  align-items: center;
+  background-color: white; /* Fondo blanco */
+  padding: 20px; /* Ajuste de relleno */
+  margin: 0; /* Para evitar márgenes */
+  width: 100%; /* Extenderse al 100% */
+  box-sizing: border-box; /* Incluir relleno y borde en el ancho */
+}
+.information .image {
+  flex: 1;
+}
+.information .text {
+  flex: 1;
 }
