@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+
 body {
-    font-family: 'Overpass', sans-serif;
+    font-family: 'Fugaz One', cursive;
     font-weight: normal;
     font-size: 100%;
     color: #1b262c;
@@ -7,6 +9,7 @@ body {
     margin: 0;
     background-color: #ffee00;;
 }
+
 
 /*NAVBAR*/
 
