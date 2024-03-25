@@ -32,6 +32,12 @@ html, body {
 .nav-links li a {
   text-decoration: none;
   color: yellow;
+  position: relative;
+  transition: color 0.3s; /* Agregamos una transición para suavizar el cambio de color */
+}
+
+.nav-links li a:hover {
+  color: rgb(255, 255, 255); /* Cambiamos el color del texto a negro para que sea legible */
 }
 
 .parte-uno {
