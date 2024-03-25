@@ -5,8 +5,38 @@ body {
     color: #1b262c;
     
     margin: 0;
-    background-color: #0f4c75;
+    background-color: #ffee00;;
 }
+
+/*NAVBAR*/
+
+.navbar {
+    background-color: black;
+    padding: 20px;
+  }
+  
+  .nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+  }
+  
+  .nav-links li {
+    display: inline;
+    margin-left: 20px;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: yellow;
+    position: relative;
+    transition: color 0.3s; /* Agregamos una transición para suavizar el cambio de color */
+  }
+  
+  .nav-links li a:hover {
+    color: rgb(255, 255, 255); /* Cambiamos el color del texto a negro para que sea legible */
+  }
 
 #contenedor {
     display: flex;
@@ -36,7 +66,7 @@ body {
 #login {
     width: 100%;
     padding: 50px 30px;
-    background-color: #3282b8;
+    background-color: #000000;
     
     -webkit-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
     -moz-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
