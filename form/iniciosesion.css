@@ -63,6 +63,11 @@ body {
     margin-bottom: 20px;
 }
 
+.imagen-pequena {
+    width: 150px; /* Ancho deseado */
+    height: auto; /* Altura ajustada automáticamente para mantener la proporción */
+}
+
 #login {
     width: 100%;
     padding: 50px 30px;
