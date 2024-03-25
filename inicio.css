@@ -16,3 +16,30 @@ html, body {
   padding: 4em;
   text-align: center;
 }
+
+
+.fotos{
+    margin-top: -10%;
+    margin-left: -100px;
+}
+
+.h1-information {
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  margin-top: 5%;
+}
+.information {
+  display: flex;
+  align-items: center;
+  background-color: white; /* Fondo blanco */
+  padding: 20px; /* Ajuste de relleno */
+  margin: 0; /* Para evitar márgenes */
+  width: 100%; /* Extenderse al 100% */
+  box-sizing: border-box; /* Incluir relleno y borde en el ancho */
+}
+.information .image {
+  flex: 1;
+}
+.information .text {
+  flex: 1;
+}
