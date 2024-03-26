@@ -14,6 +14,16 @@ html, body {
 .navbar {
     background-color: black;
     padding: 20px;
+    position: relative; /* Establece la posición relativa para el navbar */
+  }
+  
+  .logo {
+    width: 50px; /* Ancho del logo */
+    height: 50px; /* Altura del logo */
+    position: absolute; /* Establece la posición absoluta para el logo */
+    top: 50%; /* Lo posiciona verticalmente en el centro */
+    left: 20px; /* Ajusta la posición horizontal */
+    transform: translateY(-50%); /* Corrige la posición vertical */
   }
   
   .nav-links {
