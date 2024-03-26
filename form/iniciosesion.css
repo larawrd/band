@@ -71,6 +71,7 @@ html, body {
 
 #login {
     width: 100%;
+    margin-top: -100px;
     padding: 50px 30px;
     background-color: #000000;
     
@@ -86,8 +87,7 @@ html, body {
 }
 
 #login input {
-    font-family: 'Overpass', sans-serif;
-    font-size: 110%;
+    font-family: 'Fugaz One', cursive;
     color: #1b262c;
     
     display: block;
@@ -106,12 +106,12 @@ html, body {
 }
 
 #login input::placeholder {
-    font-family: 'Overpass', sans-serif;
+    font-family: 'Fugaz One', cursive;
     color: #E4E4E4;
 }
 
 #login button {
-    font-family: 'Overpass', sans-serif;
+    font-family: 'Fugaz One', cursive;
     font-size: 110%;
     color:#1b262c;
     width: 100%;
@@ -122,14 +122,14 @@ html, body {
     -moz-border-radius: 3px 3px 3px 3px;
     -webkit-border-radius: 3px 3px 3px 3px;
     
-    background-color: #bbe1fa;
+    background-color: #ffee00;
     
     margin-top: 10px;
 }
 
 #login button:hover {
-    background-color: #0f4c75;
-    color:#bbe1fa;
+    background-color: #ffffff;
+    color:#000000;
 }
 
 .pie-form {
@@ -141,27 +141,6 @@ html, body {
 .pie-form a {
     display: block;
     text-decoration: none;
-    color: #bbe1fa;
+    color: #ffee00;
     margin-bottom: 3px;
-}
-
-.pie-form a:hover {
-    color: #0f4c75;
-}
-
-.inferior {
-    margin-top: 10px;
-    font-size: 90%;
-    text-align: center;
-}
-
-.inferior a {
-    display: block;
-    text-decoration: none;
-    color: #bbe1fa;
-    margin-bottom: 3px;
-}
-
-.inferior a:hover {
-    color: #3282b8;
 }
