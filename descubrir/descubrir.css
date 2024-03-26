@@ -1,52 +1,85 @@
-/* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
 
-/* Global */
 html, body {
-  margin: 0; /* Eliminar márgenes predeterminados */
-  padding: 0; /* Eliminar relleno predeterminado */
-  height: 100%;
-  font-family: 'Fugaz One', cursive;
-  overflow-y: auto; /* Agrega desplazamiento vertical */
+    font-family: 'Fugaz One', cursive;
+    overflow-y: auto; /* Agrega desplazamiento vertical */
+    padding: 0; /* Eliminar relleno predeterminado */
+    margin: 0;
+    background-color: #ffee00;;
 }
+
 
 /*NAVBAR*/
 
 .navbar {
-  background-color: black;
-  padding: 20px;
-  position: relative; /* Establece la posición relativa para el navbar */
-}
+    background-color: black;
+    padding: 20px;
+    position: relative; /* Establece la posición relativa para el navbar */
+  }
+  
+  .logo {
+    width: 50px; /* Ancho del logo */
+    height: 50px; /* Altura del logo */
+    position: absolute; /* Establece la posición absoluta para el logo */
+    top: 50%; /* Lo posiciona verticalmente en el centro */
+    left: 20px; /* Ajusta la posición horizontal */
+    transform: translateY(-50%); /* Corrige la posición vertical */
+  }
+  
+  .nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+  }
+  
+  .nav-links li {
+    display: inline;
+    margin-left: 20px;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: yellow;
+    position: relative;
+    transition: color 0.3s; /* Agregamos una transición para suavizar el cambio de color */
+  }
+  
+  .nav-links li a:hover {
+    color: rgb(255, 255, 255); /* Cambiamos el color del texto a negro para que sea legible */
+  }
 
-.logo {
-  width: 50px; /* Ancho del logo */
-  height: 50px; /* Altura del logo */
-  position: absolute; /* Establece la posición absoluta para el logo */
-  top: 50%; /* Lo posiciona verticalmente en el centro */
-  left: 20px; /* Ajusta la posición horizontal */
-  transform: translateY(-50%); /* Corrige la posición vertical */
-}
-
-
-.nav-links {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  text-align: right;
-}
-
-.nav-links li {
-  display: inline;
-  margin-left: 20px;
-}
-
-.nav-links li a {
-  text-decoration: none;
-  color: yellow;
-  position: relative;
-  transition: color 0.3s; /* Agregamos una transición para suavizar el cambio de color */
-}
-
-.nav-links li a:hover {
-  color: rgb(255, 255, 255); /* Cambiamos el color del texto a negro para que sea legible */
-}
+  /* Estilos de márgenes para la flecha */
+.arrow-icon {
+    width: 200px; /* Ancho de la flecha */
+    height: 200px; /* Altura automática */
+    margin-left: 30%;
+  
+  }
+  
+  .svg-overlay {
+    margin-top: 50px;
+  }
+  
+  .content-2 {
+    text-align: center;
+    background-color: #ffffff;
+    margin-top: -50px;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+  
+  .carousel-inner img {
+    margin-top: 50px;
+    width: 850px;
+    height: 500px;
+  }
+  
+  .carousel-control-prev{
+    margin-top: 50px;
+    margin-left: 250px;
+  }
+  .carousel-control-next{
+    margin-top: 50px;
+    margin-right: 250px;
+  }
