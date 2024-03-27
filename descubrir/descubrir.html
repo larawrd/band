@@ -8,8 +8,7 @@
 <!-- incluye Slick Slider -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 <!-- incluye tu script personalizado -->
-<script src="inicio.js"></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.0.0/dist/css/splide.min.css">
+
 <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.0.0/dist/js/splide.min.js"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
@@ -22,10 +21,10 @@
 <body>
 
     <!-- NAVBAR -->
-    <nav class="navbar">
-        <img src="../img/logo.png" alt="Logo de la empresa" class="logo">
-        <ul class="nav-links">
-            <li><a href="#">Home</a></li>
+    <nav class="custom-navbar">
+        <img src="../img/logo.png" alt="Logo de la empresa" class="custom-logo">
+        <ul class="custom-nav-links">
+            <li><a href="../main/inicio.html">Home</a></li>
             <li><a href="#">Descubrir</a></li>
             <li><a href="#">Eventos</a></li>
             <li><a href="../form/iniciosesion.html">Cuenta</a></li>
@@ -42,18 +41,27 @@
           <li data-target="#demo" data-slide-to="2"></li>
         </ul>
         
-        <!-- The slideshow -->
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <center><img src="fondo2.jpg" alt="Los Angeles" width="500" height="300"></center>
-          </div>
-          <div class="carousel-item">
-            <center><img src="fondo2.jpg"  alt="Chicago" width="500" height="300"></center>
-          </div>
-          <div class="carousel-item">
-          <center><img src="fondo2.jpg"  alt="New York" width="500" height="300"></center>
-          </div>
-        </div>
+<!-- The slideshow -->
+<div class="carousel-inner">
+  <div class="carousel-item active">
+    <center><img src="../img/fondo.jpg" alt="Los Angeles" width="500" height="300">
+      <div class="carousel-caption">
+          <h3>Caption para la primera imagen</h3>
+      </div>
+  </div>
+  <div class="carousel-item">
+    <center><img src="../img/fondo.jpg" alt="Los Angeles" width="500" height="300">
+      <div class="carousel-caption">
+          <h3>Caption para la segunda imagen</h3>
+      </div>
+  </div>
+  <div class="carousel-item">
+    <center><img src="../img/fondo.jpg" alt="Los Angeles" width="500" height="300">
+      <div class="carousel-caption">
+          <h3>Caption para la tercera imagen</h3>
+      </div>
+  </div>
+</div>
         
         <!-- Left and right controls -->
         <a class="carousel-control-prev" href="#demo" data-slide="prev">
@@ -62,7 +70,9 @@
         <a class="carousel-control-next" href="#demo" data-slide="next">
           <span class="carousel-control-next-icon"></span>
         </a>
+        
       </div>
-  
+
+
 </body>
 </html>
