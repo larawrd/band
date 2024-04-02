@@ -94,3 +94,28 @@ html, body {
   color: black;
 margin-top: 30px;
 }
+
+/* Estilos para el catálogo de bandas */
+.band-catalog {
+  display: flex;
+  justify-content: center; /* Centra los elementos horizontalmente */
+  margin-top: 20px;
+}
+
+.band {
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  margin: 0 5px; /* Ajusta el espacio entre las bandas */
+}
+
+.band img {
+  display: block;
+  margin: 0 auto;
+}
+
+.band-name {
+  color: white;
+  margin-top: 10px;
+} 
