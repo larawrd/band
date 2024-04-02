@@ -60,19 +60,19 @@ html, body {
 }
 
 .svg-overlay {
-  margin-top: 50px;
+  margin-top: 10px;
 }
 
 .content-2 {
   text-align: center;
   background-color: #ffffff;
-  margin-top: -50px;
+  margin-top: 0px;
   margin-left: 200px;
   margin-right: 200px;
 }
 
 .carousel-inner img {
-  margin-top: 50px;
+  margin-top: 10px;
   width: 850px;
   height: 500px;
 }
@@ -87,4 +87,10 @@ html, body {
 .carousel-control-next {
   margin-top: 50px;
   margin-right: 250px;
+}
+
+.titulo{
+  text-align: center;
+  color: black;
+margin-top: 30px;
 }
