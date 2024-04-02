@@ -58,7 +58,9 @@ html, body {
   margin: 0; /* Eliminar márgenes */
 }
 
-
+.titulo{
+  font-size: 500%;
+}
 .fotos{
     margin-top: -10%;
     margin-left: -100px;

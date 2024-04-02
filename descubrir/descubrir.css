@@ -107,7 +107,7 @@ margin-top: 30px;
   padding: 10px;
   text-align: center;
   border-radius: 5px;
-  margin: 0 5px; /* Ajusta el espacio entre las bandas */
+  margin: 0 25px; /* Ajusta el espacio entre las bandas */
 }
 
 .band img {
